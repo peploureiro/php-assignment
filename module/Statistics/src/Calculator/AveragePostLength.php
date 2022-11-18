@@ -18,12 +18,12 @@ class AveragePostLength extends AbstractCalculator
     /**
      * @var int
      */
-    private $totalLength = 0;
+    private int $totalLength = 0;
 
     /**
      * @var int
      */
-    private $postCount = 0;
+    private int $postCount = 0;
 
     /**
      * @param SocialPostTo $postTo
