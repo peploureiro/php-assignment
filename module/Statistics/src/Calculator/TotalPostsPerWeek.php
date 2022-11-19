@@ -18,7 +18,7 @@ class TotalPostsPerWeek extends AbstractCalculator
     /**
      * @var array
      */
-    private $totals = [];
+    private array $totals = [];
 
     /**
      * @param SocialPostTo $postTo

@@ -18,7 +18,7 @@ class MaxPostLength extends AbstractCalculator
     /**
      * @var int
      */
-    private $maxPostLength = 0;
+    private int $maxPostLength = 0;
 
     /**
      * @param SocialPostTo $postTo
